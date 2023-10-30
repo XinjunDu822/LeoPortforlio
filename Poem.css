@@ -1,0 +1,164 @@
+/*
+
+
+   Filename:         Poem.css
+
+*/
+
+
+article, aside, figure, figcaption, footer, hgroup, header, 
+section, nav {
+   display: block;
+}
+
+
+
+body * {
+
+   font-family: Verdana, Geneva, sans-serif;
+   font-size: 100%;
+   font-weight: inherit;
+   line-height: 1.2em;
+   list-style: none;
+   margin: 0px;
+   padding: 14px;
+   text-decoration: none;
+   vertical-align: baseline;
+}
+
+
+
+/* Body Styles */
+body {
+   background-image: linear-gradient(to bottom right, white, blue);
+   width: 80%;
+   min-width: 900px;
+   max-width: 1100px;
+   font-family: Verdana, Geneva, sans-serif;
+   font-weight: normal;
+}
+
+
+
+/* Header Styles */
+
+header {
+   width: 100%;
+}
+
+header nav {
+   position: absolute;
+   left: 100px;
+   top: 170px;
+   width: 90%;
+   z-index: 2;
+}
+
+header nav ul li {
+
+   display: block; 
+   float: left; 
+   width: 16%;
+   margin: 0px 2px;
+   text-align: center;
+}
+
+header nav ul li a {
+   display: block;
+   border: 1px solid black;
+   width: 100%;
+   background-color: rgb(162, 112, 41);
+   color: white;
+}
+
+header nav ul li a:hover {
+   color: black;
+}
+
+header h1 {
+   clear: left;
+   width: 100%;
+   font-size: 1.4em;
+   letter-spacing: 3px;
+   font-weight: bold;
+   margin-left: 50%;
+   margin-top: 6%;
+}
+
+
+
+
+/* Section Styles */
+section {
+   position: relative;
+   left: 23%;
+	
+  	
+}
+
+
+section article h2 {
+   margin: 0px 0px 15px 0px;
+   font-weight: normal;
+   text-align: center;
+
+   color:  white;
+   background-color: rgb(162, 112, 41);
+
+   -moz-border-radius-topleft: 30px;
+   -webkit-border-top-left-radius: 30px;
+   border-top-left-radius: 30px;
+
+   -moz-border-radius-topright: 30px;
+   -webkit-border-top-right-radius: 30px;
+   border-top-right-radius: 30px;
+
+
+   font-size: 1.3em;
+   letter-spacing: 5px;
+   line-height: 2em;
+}
+
+section article {
+   background-color: white;
+   width: 110%;
+   border: 3px  solid rgb(162, 112, 41);
+
+   -moz-border-radius:  30px;
+   -webkit-border-radius:  30px;
+   border-radius: 30px;
+
+   margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+/* Middle Section Styles */
+section.middle {
+   width:  35%;
+   float: left;
+   
+}
+
+
+
+/* Right Section Styles */
+section.right {
+   width: 35%;
+   float: right;
+   margin-right: 19%;
+} 
+
+
+
+
+
+
+
+
