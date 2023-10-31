@@ -51,8 +51,18 @@ body {
 
 header {
    width: 100%;
+  
 }
 
+header img{
+  
+   padding-top: 15px;
+  padding-right: 0px;
+  padding-bottom: 50px;
+  padding-left: 20px;
+
+}
+ 
 header nav {
    position: absolute;
    left: 100px;
@@ -145,11 +155,57 @@ section article {
 }
 
 section article p {
-   font-size: 0.9em;
+   font-size: 1.3em;
    margin: 15px;
 }
 
 
+img#photo1 {
+   display: block;
+   width: 200px;
+   margin: 0px;
+}
+
+
+figure {
+   position: relative;
+   margin-left:2%;
+  
+}
+
+figure img {
+   display: block;
+   width: 90%;
+   margin: 0px auto;
+}
+
+figure figcaption {
+   font-size: 12px;
+   font-style: italic;
+   line-height: 12px;
+   text-align: center;
+   padding: 5px 0px;
+}
+
+figure#photo2 {
+   margin-left: 1%;
+   left: 1px;
+}
+
+figure#photo3 {
+   top: 245px;
+   left: 530px;
+}
+
+figure#photo4 {
+   top: 545px;
+   left: 105px;;
+}
+
+figure#photo5 {
+   top: 545px;
+   left: 455px;
+}
 
 
 
